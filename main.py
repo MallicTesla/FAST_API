@@ -6,7 +6,7 @@ from typing import Union
 #   manejo de solicitudes.
 app = FastAPI()
 
-class Item(BaseModel):
+class Item (BaseModel):
     name: str
     price: float
     is_offer: Union[bool, None] = None
