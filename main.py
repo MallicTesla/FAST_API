@@ -9,7 +9,7 @@ app = FastAPI()
 class Item (BaseModel):
     name: str
     price: float
-    is_offer: Union[bool, None] = None
+    is_offer: Union [bool, None] = None
 
 # Esto es un decorador que especifica que la función siguiente manejará las solicitudes GET en la ruta /
 # Si o si tenes que pasaarle una ruta al decorador
