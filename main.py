@@ -13,7 +13,7 @@ class Item (BaseModel):
 
 # Esto es un decorador que especifica que la función siguiente manejará las solicitudes GET en la ruta /
 # Si o si tenes que pasaarle una ruta al decorador
-@app.get("/")
+@app.get ("/")
 def read_root():
     return {"Funciono": "Mas bien loquita"}
 
